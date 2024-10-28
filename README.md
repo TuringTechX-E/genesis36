@@ -157,8 +157,8 @@ lib/
 ## Contact
 
 For any inquiries or further assistance, please contact the project team:
-- **Project Lead**: [Your Name] - [your.email@example.com]
-- **GitHub Issues**: Use the [GitHub Issues](https://github.com/your-username/genesis360-superapp/issues) tab for feature requests and bug reports.
+- **Project Lead**: [Eugene Ochako] - [eugeneochako@gmail.com]
+- **GitHub Issues**: Use the [GitHub Issues](https://github.com/TuringTechX/genesis360-superapp/issues) tab for feature requests and bug reports.
 
 ---
 
