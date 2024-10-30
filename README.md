@@ -97,7 +97,7 @@ An impact investment marketplace where users can explore and invest in projects 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/genesis360-superapp.git
+   git clone https://github.com/TuringTechX/genesis36-superapp.git
    cd genesis360-superapp
    ```
 2. Install dependencies:
