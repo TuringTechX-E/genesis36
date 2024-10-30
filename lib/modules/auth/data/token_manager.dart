@@ -1,4 +1,3 @@
-import 'dart:collection';
 
 import 'package:myapp/modules/auth/data/auth_model.dart';
 

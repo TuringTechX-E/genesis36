@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: AuthenticationScreen(),  // Set the AuthenticationScreen as the home page
+      home: const AuthenticationScreen(),  // Set the AuthenticationScreen as the home page
     );
   }
 }
