@@ -20,8 +20,14 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 
 flutter:
-  uses-material-design: true
-
-  # Correct indentation for the assets section
   assets:
+    - assets/json/blockchain/rec_market_data.json
+    - assets/json/blockchain/trade_history.json
+    - assets/json/blockchain/transaction_data.json
+    - assets/json/research_crowdsourcing/research_projects.json
+    - assets/json/research_crowdsourcing/user_health_data.json
+    - assets/json/config/app_config.json
+    - assets/json/localization/en.json
+    - assets/json/localization/es.json
+
     - assets/images/serene_landscape.jpg

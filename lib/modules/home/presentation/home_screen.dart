@@ -4,18 +4,18 @@ import 'widgets/news_feed_widget.dart';
 import 'widgets/quick_access_widget.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text("Dashboard"),
+        title: const Text("Dashboard"),
         backgroundColor: Colors.green.shade800,
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
+      body: const Padding(
+        padding: EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class QuickAccessWidget extends StatelessWidget {
-  const QuickAccessWidget({Key? key}) : super(key: key);
+  const QuickAccessWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,8 +22,8 @@ class QuickAccessWidget extends StatelessWidget {
           backgroundColor: color.withOpacity(0.2),
           child: Icon(icon, color: color),
         ),
-        SizedBox(height: 4),
-        Text(label, style: TextStyle(fontSize: 12)),
+        const SizedBox(height: 4),
+        Text(label, style: const TextStyle(fontSize: 12)),
       ],
     );
   }

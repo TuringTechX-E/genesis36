@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MetricsWidget extends StatelessWidget {
-  const MetricsWidget({Key? key}) : super(key: key);
+  const MetricsWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,9 +15,9 @@ class MetricsWidget extends StatelessWidget {
         child: Column(
           children: [
             _buildMetricRow("Carbon Footprint", "45%"),
-            SizedBox(height: 8),
+            const SizedBox(height: 8),
             _buildMetricRow("Renewable Energy Usage", "80%"),
-            SizedBox(height: 8),
+            const SizedBox(height: 8),
             _buildMetricRow("Health Score", "95"),
           ],
         ),
@@ -29,8 +29,9 @@ class MetricsWidget extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text(title, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
-        Text(value, style: TextStyle(fontSize: 16, color: Colors.blue)),
+        Text(title,
+            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+        Text(value, style: const TextStyle(fontSize: 16, color: Colors.blue)),
       ],
     );
   }

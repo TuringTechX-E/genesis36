@@ -1,0 +1,16 @@
+[
+  {
+    "id": "TX123456",
+    "type": "Solar",
+    "amount": 500,
+    "timestamp": "2023-10-01T12:30:00Z",
+    "status": "Verified"
+  },
+  {
+    "id": "TX123457",
+    "type": "Wind",
+    "amount": 300,
+    "timestamp": "2023-10-02T08:15:00Z",
+    "status": "Pending"
+  }
+]
