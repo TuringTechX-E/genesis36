@@ -7,9 +7,7 @@ Here, we present visuals of key modules and features of Genesis360 to offer a be
 1. Home Module
 Description:
 The central hub for personalized data, navigation, and quick access to the main features.
-![Leonardo_Phoenix_Imagine_an_elegant_ecodriven_home_screen_that_2](https://github.com/user-attachments/assets/db056c9f-7615-4287-9ab2-dd7b0e157b14)
-![Uploading Leonardo_Phoenix_Imagine_an_elegant_ecodriven_home_screen_that_0.jpg…]()
-![Uploading Leonardo_Phoenix_Imagine_an_elegant_ecodriven_home_screen_that_2.jpg…]()
+
 
 Preview:
 
