@@ -1,4 +1,4 @@
-![Leonardo_Phoenix_Imagine_an_elegant_ecodriven_home_screen_that_0](https://github.com/user-attachments/assets/72108d4e-0895-4788-8b27-2684ff60ee51)Here’s a **comprehensive GitHub README** file for the **Genesis360 Superapp** project. This README is designed to explain the purpose of the project, its features, architecture, and instructions for the team to understand and contribute effectively.
+(https://github.com/user-attachments/assets/72108d4e-0895-4788-8b27-2684ff60ee51)Here’s a **comprehensive GitHub README** file for the **Genesis360 Superapp** project. This README is designed to explain the purpose of the project, its features, architecture, and instructions for the team to understand and contribute effectively.
 Help me in Building the project to completion
 ---
 Product Showcase 🎨📱
