@@ -17,6 +17,7 @@
 /// Dependencies:
 ///   - Uses [blockchain_api_client] for API calls to the blockchain network.
 ///   - Uses a caching mechanism to handle user-specific carbon impact metrics.
+library;
 
 import 'package:genesis360/core/network/blockchain_api_client.dart';
 import 'package:genesis360/modules/blockchain/data/models/transaction_model.dart';

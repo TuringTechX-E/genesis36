@@ -1,5 +1,6 @@
 /// Healthcare Use Case
 /// Manages AI recommendations, goal tracking, and progress monitoring for health metrics.
+library;
 
 import 'package:genesis360/modules/healthcare/data/healthcare_repository.dart';
 import 'package:genesis360/modules/healthcare/entities/healthcare_entity.dart';

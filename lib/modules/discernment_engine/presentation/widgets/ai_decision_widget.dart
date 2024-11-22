@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AIDecisionWidget extends StatelessWidget {
-  const AIDecisionWidget({Key? key}) : super(key: key);
+  const AIDecisionWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,10 +15,10 @@ class AIDecisionWidget extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text("Top Recommendation", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
-            SizedBox(height: 10),
-            Text("Healthcare: Increase daily exercise to improve health score."),
-            SizedBox(height: 10),
+            const Text("Top Recommendation", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 10),
+            const Text("Healthcare: Increase daily exercise to improve health score."),
+            const SizedBox(height: 10),
             Text(
               "Biblical Insight: 'Do you not know that your bodies are temples of the Holy Spirit?' (1 Corinthians 6:19)",
               style: TextStyle(fontSize: 12, color: Colors.grey.shade700),

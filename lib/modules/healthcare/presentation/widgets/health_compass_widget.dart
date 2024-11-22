@@ -3,15 +3,15 @@ import 'health_metric_circle.dart';
 import 'spiritual_inspiration_widget.dart';
 
 class HealthCompassWidget extends StatelessWidget {
-  const HealthCompassWidget({Key? key}) : super(key: key);
+  const HealthCompassWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Card(
       elevation: 4,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
-      child: Padding(
-        padding: const EdgeInsets.all(16.0),
+      child: const Padding(
+        padding: EdgeInsets.all(16.0),
         child: Column(
           children: [
             Text("Your Health Compass", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),

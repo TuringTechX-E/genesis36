@@ -1,6 +1,7 @@
 /// Transaction Model
 /// Represents a blockchain transaction with associated metadata such as ID, type,
 /// amount, timestamp, and status to provide transparency in blockchain dealings.
+library;
 
 class Transaction {
   final String id;

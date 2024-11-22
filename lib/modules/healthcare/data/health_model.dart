@@ -1,5 +1,6 @@
 /// HealthData Model
 /// Represents user's health metrics and AI-driven recommendations for improvement.
+library;
 
 class HealthData {
   final Map<String, double> metrics; // Stores metric name and current value

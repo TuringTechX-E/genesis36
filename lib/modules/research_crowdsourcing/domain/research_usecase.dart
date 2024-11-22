@@ -1,6 +1,7 @@
 /// ResearchUseCase
 /// Handles the business logic for displaying research projects, submitting health data,
 /// and ensuring secure and anonymized data contributions.
+library;
 
 import 'package:genesis360/modules/research_crowdsourcing/data/research_repository.dart';
 import 'package:genesis360/modules/research_crowdsourcing/data/models/research_project_model.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ResearchProjectWidget extends StatelessWidget {
-  const ResearchProjectWidget({Key? key}) : super(key: key);
+  const ResearchProjectWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -25,9 +25,9 @@ class ResearchProjectWidget extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(project["title"]!, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
-            SizedBox(height: 8),
-            Text(project["description"]!, style: TextStyle(fontSize: 14)),
+            Text(project["title"]!, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 8),
+            Text(project["description"]!, style: const TextStyle(fontSize: 14)),
           ],
         ),
       ),

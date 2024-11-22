@@ -3,17 +3,17 @@ import 'widgets/ai_decision_widget.dart';
 import 'widgets/recommendation_list_widget.dart';
 
 class DiscernmentScreen extends StatelessWidget {
-  const DiscernmentScreen({Key? key}) : super(key: key);
+  const DiscernmentScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Discernment Engine"),
+        title: const Text("Discernment Engine"),
         backgroundColor: Colors.green.shade800,
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
+      body: const Padding(
+        padding: EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TransparencyOverviewWidget extends StatelessWidget {
-  const TransparencyOverviewWidget({Key? key}) : super(key: key);
+  const TransparencyOverviewWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,8 +12,8 @@ class TransparencyOverviewWidget extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
-            Text("Transparency Overview", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-            SizedBox(height: 10),
+            const Text("Transparency Overview", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 10),
             _buildMetricRow("Verified Transactions", 24),
             _buildMetricRow("Pending Transactions", 6),
           ],
@@ -28,8 +28,8 @@ class TransparencyOverviewWidget extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text(title, style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600)),
-          Text(value.toString(), style: TextStyle(fontSize: 14, color: Colors.green)),
+          Text(title, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w600)),
+          Text(value.toString(), style: const TextStyle(fontSize: 14, color: Colors.green)),
         ],
       ),
     );

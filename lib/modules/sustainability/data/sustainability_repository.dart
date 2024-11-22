@@ -3,6 +3,7 @@
 /// 
 /// This class interfaces with local storage and remote APIs (if any)
 /// and uses caching for efficiency.
+library;
 
 import '../entities/sustainability_entity.dart';
 

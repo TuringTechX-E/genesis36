@@ -1,5 +1,6 @@
 /// Use case for handling the sustainability module's business logic,
 /// including updating metrics, tracking carbon emissions, and awarding badges.
+library;
 
 import '../data/sustainability_repository.dart';
 import '../data/carbon_footprint_repository.dart';

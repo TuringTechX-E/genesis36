@@ -2,8 +2,8 @@
 /// 
 /// This repository can fetch data from an API, calculate estimates,
 /// and cache recent calculations for performance.
+library;
 
-import '../entities/sustainability_entity.dart';
 
 class CarbonFootprintRepository {
   /// Calculates the carbon footprint based on user activities.

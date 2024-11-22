@@ -1,6 +1,7 @@
 /// ResearchRepository
 /// This repository manages fetching research projects and submitting health data contributions
 /// to support ongoing medical research initiatives.
+library;
 
 import 'models/research_project_model.dart';
 import 'models/health_data_model.dart';

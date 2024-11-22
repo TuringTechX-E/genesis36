@@ -1,4 +1,5 @@
 /// Entity for defining an eco badge, with a name, description, and requirements.
+library;
 
 class EcoBadgeEntity {
   final String name;

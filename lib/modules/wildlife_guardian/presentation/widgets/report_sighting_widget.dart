@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ReportSightingWidget extends StatelessWidget {
-  const ReportSightingWidget({Key? key}) : super(key: key);
+  const ReportSightingWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,17 +15,17 @@ class ReportSightingWidget extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text("Report a Sighting",
+            const Text("Report a Sighting",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-            SizedBox(height: 10),
-            Text("Report sightings with photo evidence",
+            const SizedBox(height: 10),
+            const Text("Report sightings with photo evidence",
                 style: TextStyle(fontSize: 14)),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
                 // TODO: Implement species sighting reporting
               },
-              child: Text("Report Sighting"),
+              child: const Text("Report Sighting"),
             ),
           ],
         ),

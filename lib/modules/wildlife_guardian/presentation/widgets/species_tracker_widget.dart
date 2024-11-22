@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SpeciesTrackerWidget extends StatelessWidget {
-  const SpeciesTrackerWidget({Key? key}) : super(key: key);
+  const SpeciesTrackerWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,9 +15,9 @@ class SpeciesTrackerWidget extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text("Endangered Species Near You",
+            const Text("Endangered Species Near You",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             _buildSpeciesRow("African Elephant", "Population: 415,000"),
             _buildSpeciesRow("Mountain Gorilla", "Population: 1,000"),
           ],
@@ -30,8 +30,8 @@ class SpeciesTrackerWidget extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text(name, style: TextStyle(fontSize: 16)),
-        Text(detail, style: TextStyle(fontSize: 16, color: Colors.blue)),
+        Text(name, style: const TextStyle(fontSize: 16)),
+        Text(detail, style: const TextStyle(fontSize: 16, color: Colors.blue)),
       ],
     );
   }

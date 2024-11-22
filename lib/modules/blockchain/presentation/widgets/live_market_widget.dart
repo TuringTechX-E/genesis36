@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class LiveMarketWidget extends StatelessWidget {
-  const LiveMarketWidget({Key? key}) : super(key: key);
+  const LiveMarketWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,8 +13,8 @@ class LiveMarketWidget extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text("Live REC Market", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-            SizedBox(height: 10),
+            const Text("Live REC Market", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 10),
             _buildMarketRow("Solar REC", "\$24.50"),
             _buildMarketRow("Wind REC", "\$22.75"),
             _buildMarketRow("Hydro REC", "\$20.00"),
@@ -30,8 +30,8 @@ class LiveMarketWidget extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text(type, style: TextStyle(fontSize: 14)),
-          Text(price, style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: Colors.blue)),
+          Text(type, style: const TextStyle(fontSize: 14)),
+          Text(price, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: Colors.blue)),
         ],
       ),
     );

@@ -1,6 +1,7 @@
 /// ResearchProject Model
 /// Represents a medical research project, including details such as title, description,
 /// and unique identifier.
+library;
 
 class ResearchProject {
   final String id;

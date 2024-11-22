@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class HealthDataContributionWidget extends StatelessWidget {
-  const HealthDataContributionWidget({Key? key}) : super(key: key);
+  const HealthDataContributionWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,8 +13,8 @@ class HealthDataContributionWidget extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text("Contribute Health Data", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
-            SizedBox(height: 10),
+            const Text("Contribute Health Data", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 10),
             _buildHealthDataForm(),  // Form for inputting health data
           ],
         ),
@@ -26,19 +26,19 @@ class HealthDataContributionWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        TextField(
+        const TextField(
           decoration: InputDecoration(labelText: "Data Type (e.g., Steps, Heart Rate)"),
         ),
-        TextField(
+        const TextField(
           decoration: InputDecoration(labelText: "Value"),
           keyboardType: TextInputType.number,
         ),
-        SizedBox(height: 20),
+        const SizedBox(height: 20),
         ElevatedButton(
           onPressed: () {
             // TODO: Implement data submission logic
           },
-          child: Text("Submit Data"),
+          child: const Text("Submit Data"),
         ),
       ],
     );

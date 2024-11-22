@@ -13,6 +13,7 @@
 /// Dependencies:
 ///   - Uses [energy_trade_api_client] for external API interactions.
 ///   - Leverages blockchain verification for transaction tracking.
+library;
 
 import 'package:genesis360/core/network/energy_trade_api_client.dart';
 import 'package:genesis360/modules/blockchain/data/models/market_data_model.dart';

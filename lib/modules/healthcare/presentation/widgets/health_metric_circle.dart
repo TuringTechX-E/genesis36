@@ -7,12 +7,12 @@ class HealthMetricCircle extends StatelessWidget {
   final Color color;
 
   const HealthMetricCircle({
-    Key? key,
+    super.key,
     required this.label,
     required this.value,
     required this.target,
     required this.color,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -27,11 +27,11 @@ class HealthMetricCircle extends StatelessWidget {
               backgroundColor: color.withOpacity(0.2),
               valueColor: AlwaysStoppedAnimation(color),
             ),
-            Text(value, style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
+            Text(value, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
           ],
         ),
-        SizedBox(height: 8),
-        Text(label, style: TextStyle(fontSize: 12, color: Colors.grey)),
+        const SizedBox(height: 8),
+        Text(label, style: const TextStyle(fontSize: 12, color: Colors.grey)),
       ],
     );
   }

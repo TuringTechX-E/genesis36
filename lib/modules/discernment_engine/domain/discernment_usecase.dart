@@ -1,6 +1,7 @@
 /// Discernment Use Case
 /// This use case fetches, filters, and sorts AI-powered recommendations
 /// based on relevance and user profile, generating prioritized insights.
+library;
 
 import 'package:genesis360/modules/discernment_engine/data/discernment_repository.dart';
 import 'package:genesis360/modules/discernment_engine/entities/ai_decision_entity.dart';

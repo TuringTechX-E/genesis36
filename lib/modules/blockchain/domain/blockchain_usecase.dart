@@ -1,6 +1,7 @@
 /// BlockchainUseCase
 /// Provides business logic for managing and displaying blockchain transactions,
 /// including filtering by status and sorting by timestamp for transparency.
+library;
 
 import 'package:genesis360/modules/blockchain/data/blockchain_repository.dart';
 import 'package:genesis360/modules/blockchain/data/models/transaction_model.dart';

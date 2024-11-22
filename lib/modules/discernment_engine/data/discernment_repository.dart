@@ -1,6 +1,7 @@
 /// Discernment Repository
 /// This repository fetches and manages AI-driven recommendations
 /// in healthcare, sustainability, and socioeconomic areas.
+library;
 
 import 'ai_model.dart';
 

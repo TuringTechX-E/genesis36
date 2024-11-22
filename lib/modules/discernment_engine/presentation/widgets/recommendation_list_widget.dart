@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
 class RecommendationListWidget extends StatelessWidget {
-  const RecommendationListWidget({Key? key}) : super(key: key);
+  const RecommendationListWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text("Additional Recommendations",
+        const Text("Additional Recommendations",
             style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
-        SizedBox(height: 10),
+        const SizedBox(height: 10),
         _buildRecommendation(
             "Sustainability: Reduce energy usage to lower carbon footprint."),
-        SizedBox(height: 8),
+        const SizedBox(height: 8),
         _buildRecommendation(
             "Socioeconomic: Participate in community volunteer work."),
       ],
@@ -25,9 +25,9 @@ class RecommendationListWidget extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 4.0),
       child: Row(
         children: [
-          Icon(Icons.lightbulb_outline, color: Colors.green),
-          SizedBox(width: 8),
-          Expanded(child: Text(suggestion, style: TextStyle(fontSize: 14))),
+          const Icon(Icons.lightbulb_outline, color: Colors.green),
+          const SizedBox(width: 8),
+          Expanded(child: Text(suggestion, style: const TextStyle(fontSize: 14))),
         ],
       ),
     );

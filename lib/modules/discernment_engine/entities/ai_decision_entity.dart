@@ -1,6 +1,7 @@
 /// AIDecision Entity
 /// Represents an AI-generated decision insight, including category, recommendation,
 /// and relevance score to help prioritize suggestions.
+library;
 
 class AIDecision {
   final String category;

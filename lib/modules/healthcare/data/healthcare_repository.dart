@@ -1,5 +1,6 @@
 /// Healthcare Repository
 /// Manages access to user health data and AI health recommendations.
+library;
 
 import 'health_model.dart';
 

@@ -3,17 +3,17 @@ import 'widgets/research_project_widget.dart';
 import 'widgets/health_data_contribution_widget.dart';
 
 class ResearchScreen extends StatelessWidget {
-  const ResearchScreen({Key? key}) : super(key: key);
+  const ResearchScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Research Crowdsourcing"),
+        title: const Text("Research Crowdsourcing"),
         backgroundColor: Colors.blue.shade700,
       ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(16.0),
+      body: const SingleChildScrollView(
+        padding: EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [

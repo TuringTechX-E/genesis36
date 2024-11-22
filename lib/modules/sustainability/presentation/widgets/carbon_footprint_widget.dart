@@ -1,13 +1,16 @@
 /// Displays the user's current carbon footprint and tips for reducing emissions.
+library;
 
 import 'package:flutter/material.dart';
 
 class CarbonFootprintWidget extends StatelessWidget {
+  const CarbonFootprintWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return Card(
+    return const Card(
       child: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: EdgeInsets.all(8.0),
         child: Column(
           children: [
             Text(
